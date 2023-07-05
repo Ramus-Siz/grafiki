@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather&family=Merriweather+Sans&family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*HEADER*/
+header{
+    
+    background-color:#0c0c0c;
+    max-width: 1500px;
+    margin: auto;
+    
+}
+
+.header-mobile{
+    
+   
+    max-width: 1500px;
+    margin: auto;
+    display: none;
+}
+.header{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+   
+}
+.main-menu-mobile{
+    display: none;
+}
+
+.main-menu{
+    display: flex;
+    justify-content: space-evenly;
+
+   
+}
+.main-menu a{
+    margin-left: 2rem;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.second-menu a{
+    margin-left: 20px;
+    color:  #0080ff ;
+    background: transparent;
+    width: 100px;
+    text-align: center;
+    padding: 5px;
+    border: 1px solid #0080ff;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+ .main-menu a:hover{
+    color: #0080ff;
+    
+}
+
+.second-menu a:hover{
+    transform: scaleX(1.01);
+    color:  #c76408;
+    border: 1px solid #c76408;
+    transition: 1s;
+}
+
+
+.second-menu{
+    display: flex;
+    justify-content: space-evenly;
+ 
+}
+
+
+
+
+
+/*BANNER*/
+.banner-contener{
+    display: flex;
+    margin-bottom: 0;
+    height:100vh;
+   
+    
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0 20px 60px;
+    justify-content: center;
+    background-color: black;
+    width: 50%;
+    
+}
+
+.logo{
+    max-width: 350px;
+}
+
+.slogan-grafiki{
+    color: rgba(255, 255, 255, 0.951);
+    font-size: 20px;
+    text-transform:capitalize;
+   
+}
+
+.content-apropos{
+    color: rgba(255, 255, 255, 0.951);
+    width: 70%;
+
+    
+    
+}
+.content-apropos p{
+    font-size: 15px;
+    text-align: justify;
+   
+}
+
+.text-apropos a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    
+}
+
+.text-apropos{
+    margin-bottom: 15px;
+}
+
+
+.content-apropos h2{
+    color: #0080ff;
+   
+}
+
+.liens-sociaux{
+    display: flex;
+    align-items: center;
+
+    vertical-align: middle;
+   
+    color:  #0080ff;
+}
+
+i{
+    margin-left: 15px;
+    color:  #0080ff;
+   
+}
+
+.banner-image{
+    background: #000000;
+    width:50%;
+    background-image: url("https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+
+@media screen and (max-width:987px) {
+    body{
+        font-size: 18px;
+    }
+    
+    .header{
+        display: none;
+    }
+    .banner-text{
+        width: 100vw;
+    }
+
+   
+   .banner-image{
+    display: none;
+   }
+   
+
+
+}
