@@ -5,6 +5,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Poppins', sans-serif;
+    font-size: 18px;
 
 }
 
@@ -124,13 +125,13 @@ header{
     
 }
 .content-apropos p{
-    font-size: 15px;
-    text-align: justify;
+   
+    
    
 }
 
 .text-apropos a {
-    color: #ffffff;
+    color: #0080ff;
     text-decoration: none;
     font-size: 15px;
     
