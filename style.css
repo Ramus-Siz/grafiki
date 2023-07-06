@@ -106,9 +106,7 @@ header{
     width: 50vw;
     
 }
-.logo-grafiki{
-    padding: 15px;
-}
+
 
 .logo{
     max-width: 300px;
@@ -187,10 +185,15 @@ i{
         width: 100vw;
         padding: 0 30px 0 30px;
     }
-    .content-apropos{
+    .slogan-grafiki{
        
+        font-size: 18px;
+        
+       
+    }
+    .content-apropos{
+
         width: auto;
-      
     }
 
    
