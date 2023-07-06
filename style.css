@@ -11,7 +11,7 @@ body{
 }
 
 /*HEADER*/
-header{
+.header{
     
     background-color: #0080ff;
     max-width: 1500px;
@@ -20,11 +20,19 @@ header{
 }
 
 .header-mobile{
-    
-   
-    max-width: 1500px;
-    margin: auto;
     display: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    
+}
+.header-mobile i{
+    color: #ffffff;
+    font-size: 40px;
+}
+.header-mobile .logo{
+    max-width: 250px;
 }
 .header{
    
@@ -35,9 +43,7 @@ header{
     
    
 }
-.main-menu-mobile{
-    display: none;
-}
+
 
 .main-menu{
     display: flex;
@@ -116,6 +122,7 @@ header{
     color: rgba(255, 255, 255, 0.951);
     font-size: 20px;
     text-transform:capitalize;
+    margin-top: 0;
    
 }
 
@@ -124,11 +131,7 @@ header{
     width: 40vw;
   
 }
-.content-apropos p{
-   
-    
-   
-}
+
 
 .text-apropos a {
     color: #0080ff;
@@ -181,14 +184,23 @@ i{
     .header{
         display: none;
     }
+    .header-mobile{
+    
+        display: auto;
+    }
+    .logo-grafiki{
+        display: none;
+    }
+  
     .banner-text{
         width: 100vw;
         padding: 0 30px 0 30px;
+      justify-content:flex-start;
+        
     }
     .slogan-grafiki{
        
         font-size: 17px;
-       
         
        
     }
