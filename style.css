@@ -21,10 +21,7 @@ body{
 
 .header-mobile{
     display: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
+    
     
 }
 .header-mobile i{
@@ -186,7 +183,11 @@ i{
     }
     .header-mobile{
     
-        display: auto;
+        
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
     }
     .logo-grafiki{
         display: none;
