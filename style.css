@@ -209,7 +209,7 @@ i{
         width: 100vw;
         padding: 0 30px 0 30px;
         justify-content:flex-start;
-        background-image: linear-gradient(rgba(5, 21, 122, 0.281), rgba(8, 81, 215, 0.281)), url("https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png");
+        background-image: linear-gradient(rgba(3, 8, 37, 0.929), rgba(5, 32, 82, 0.496)), url("https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png");
         background-size: contain;
         background-repeat: no-repeat;
         
