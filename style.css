@@ -11,12 +11,22 @@ body{
 }
 
 /*HEADER*/
+
 .header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
     
     background-color: #0080ff;
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 0;
     max-width: 1500px;
     margin: auto;
     
+  
 }
 
 .header-mobile{
@@ -32,15 +42,7 @@ body{
 .header-mobile .logo{
     max-width: 250px;
 }
-.header{
-   
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    
-   
-}
+
 
 
 .main-menu{
@@ -94,6 +96,7 @@ body{
 
 /*BANNER*/
 .banner-contener{
+   
     display: flex;
     margin-bottom: 0;
     height:100vh;
@@ -104,11 +107,14 @@ body{
 .banner-text{
     display: flex;
     flex-direction: column;
-    padding: 0 0 0 60px;
+    padding: 30px 0 0 60px;
     justify-content: center;
-    background-color: black;
+    
     width: 50vw;
     
+}
+.logo-grafiki{
+  
 }
 
 
@@ -184,7 +190,7 @@ i{
     }
     .header-mobile{
       
-        background-color: #0080ff3d;
+        background-color: #090909;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -202,7 +208,10 @@ i{
     .banner-text{
         width: 100vw;
         padding: 0 30px 0 30px;
-      justify-content:flex-start;
+        justify-content:flex-start;
+        background-image: linear-gradient(rgba(5, 21, 122, 0.281), rgba(8, 81, 215, 0.281)), url("https://cdn.pixabay.com/photo/2016/06/13/09/57/meeting-1453895_1280.png");
+        background-size: contain;
+        background-repeat: no-repeat;
         
     }
     .slogan-grafiki{
