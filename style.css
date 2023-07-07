@@ -183,11 +183,14 @@ i{
     }
     .header-mobile{
     
-        
+        background-color: #0080ff3d;
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px;
+        padding: 20px;
+    }
+    .header-mobile .logo{
+        max-width: 200px;
     }
     .logo-grafiki{
         display: none;
@@ -196,12 +199,12 @@ i{
     .banner-text{
         width: 100vw;
         padding: 0 30px 0 30px;
-      justify-content:flex-start;
+      justify-content:center
         
     }
     .slogan-grafiki{
        
-        font-size: 17px;
+        font-size: 20px;
         
        
     }
