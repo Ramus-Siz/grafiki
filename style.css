@@ -23,6 +23,7 @@ body{
     display: none;
     
     
+    
 }
 .header-mobile i{
     color: #ffffff;
@@ -182,12 +183,14 @@ i{
         display: none;
     }
     .header-mobile{
-    
+      
         background-color: #0080ff3d;
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 20px;
+        
+       
     }
     .header-mobile .logo{
         max-width: 200px;
